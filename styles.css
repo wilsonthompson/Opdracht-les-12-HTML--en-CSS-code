@@ -1,0 +1,64 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Specifieke achtergrondkleuren voor cellen */
+#cel-1 { background-color: #ff9999; }   /* Lichtrood */
+#cel-2 { background-color: #99ccff; }   /* Lichtblauw */
+#cel-3 { background-color: #ffcc99; }   /* Lichtoranje */
+#cel-4 { background-color: #66ff99; }   /* Lichtgroen */
+
+#cel-5 { background-color: #ff9966; }   /* Oranje */
+#cel-6 { background-color: #6699ff; }   /* Blauw */
+#cel-7 { background-color: #ffcc66; }   /* Geel-oranje */
+#cel-8 { background-color: #66ccff; }   /* Lichterblauw */
+
+#cel-9 { background-color: #ff6633; }   /* Donkeroranje */
+#cel-10 { background-color: #3366ff; }  /* Donkerblauw */
+#cel-11 { background-color: #ffcc33; }  /* Geel */
+#cel-12 { background-color: #33ccff; }  /* Lichtblauw */
+
+#cel-13 { background-color: #ff3300; }  /* Rood */
+#cel-14 { background-color: #0033ff; }  /* Marineblauw */
+#cel-15 { background-color: #ffcc00; }  /* Geel */
+#cel-16 { background-color: #00ccff; }  /* Felblauw */
+
+/* Standaard opmaak voor afbeeldingen */
+table img {
+    width: 100px;  /* Breedte van 100px */
+    height: 100px; /* Hoogte van 100px */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding wordt bijgesneden om binnen de box te passen */
+}
